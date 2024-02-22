@@ -1,0 +1,29 @@
+{
+    "name": "iroid/laravel-otp",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salman Ansari",
+            "email": "salman.ansari.1253218@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Iroid\\Otp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iroid\\Otp\\OtpServiceProvider"
+            ],
+            "aliases": {
+                "Otp": "Iroid\\Otp\\Otp"
+            }
+        }
+    },
+    "require": {},
+    "description": "A simple package to generate and validate OTPs"
+}
