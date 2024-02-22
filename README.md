@@ -136,4 +136,4 @@ protected function schedule(Schedule $schedule)
 
 ## Contribution
 
-If you find an issue with this package or you have any suggestion please help out. I am not perfect.
+Interested to contribute or modification contact me [email](mailto:salman.iroid@gmail.com).
